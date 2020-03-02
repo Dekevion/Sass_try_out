@@ -1,0 +1,51 @@
+$light-color: #f4f4f4;
+$font-stack: Arial, Helvetica, sans-serif;
+$font-color: green;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+
+}
+
+body{
+  background-color: $light-color ;
+  font-family: $font-stack;
+  line-height: 1.6;
+  color: $font-color;
+}
+
+.showcase {
+  background-color: $primary-color;
+  color: #fff;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+    li {
+      padding: 15px
+      
+    }
+  }
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin:  0 auto;
+  overflow: auto
+}
+
